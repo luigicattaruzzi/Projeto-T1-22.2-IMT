@@ -16,7 +16,7 @@ li {
 }
 
 #sair {
-    /* tem uma distancia maior dos outros */
+    margin: 15px;
 }
 
 .txt_titulo {
@@ -50,5 +50,11 @@ li {
 }
 
 #comprar::after {
+
+}
+
+
+footer {
+    display: inline;
 
 }
