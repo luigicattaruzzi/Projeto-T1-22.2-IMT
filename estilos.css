@@ -1,0 +1,71 @@
+body {
+
+}
+
+.logo {
+    width: 100;
+    margin-top: 10px;
+}
+
+.menu > ul > li {
+    display: inline;
+    list-style-type: none;
+    float: left;
+
+}
+
+.menu > ul > li > a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#sair {
+    /* tem uma distancia maior dos outros */
+}
+
+.txt_titulo {
+    text-align: center;
+}
+
+.instrumento {
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#adicionar {
+    background-color: rgb(232, 249, 255);
+    border-color: lightblue;
+}
+
+#adicionar::after {
+
+}
+
+#comprar {
+    background-color: rgb(255, 210, 210);
+    border-color: red;
+}
+
+#comprar::after {
+
+}
+
+footer > ul > li {
+    display: inline;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer > ul > li > a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
