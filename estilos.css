@@ -1,18 +1,24 @@
 body {
     margin: 0;
+    width: 100%;
 }
 
+
 .navegacao {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 li {
     list-style-type: none;
     display: inline;
     vertical-align: middle;
+
+}
+
+a {
     text-decoration: none;
     color: black;
-
+    margin: 5px;
 }
 
 #sair {
@@ -21,17 +27,30 @@ li {
 
 .txt_titulo {
     text-align: center;
-    margin: 10px;
-}
-.instrumento {
-    text-align: center;
-    border: 2px solid black;
-    float: left;
+    margin: 3%;
 }
 
+ul {
+    margin: 0;
+}
+/* ================================================================= */
+
+.produtos {
+
+}
+
+.instrumento {
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+
+    padding: 2%;
+
+}
 
 .img_produto {
     width: 100px;
+    margin: 20px 0;
 }
 
 
@@ -40,7 +59,7 @@ li {
     border-color: lightblue;
 }
 
-#adicionar::after {
+#adicionar:hover {
 
 }
 
@@ -49,12 +68,18 @@ li {
     border-color: red;
 }
 
-#comprar::after {
-
+#comprar:hover{
 }
 
 
 footer {
-    display: inline;
-
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    border-top: 2px solid black;
+    margin-top: auto;
 }
+
+/*--------------------------------------- */
+

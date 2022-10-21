@@ -9,19 +9,24 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
     <link rel="stylesheet" href="estilos.css">
     <title>Page 1</title>
 </head>
-<body>
+
+<body class="d-flex flex-column min-vh-100">
 
     <nav class="navbar navegacao">
-        <div class="container-fluid">
+        <div>
           <a class="navbar-brand" href="#">
             <img src="https://http2.mlstatic.com/D_NQ_NP_645312-MLA44708216435_012021-O.jpg" alt="Logo" style="width:50px;">
             <span id="texto_navegacao">Lojinha de instrumentos musicais</span>
           </a>
             <ul>
+                <span>
                 <li><a href="#">Categorias</a></li>
                 <li><a href="#">Seja membro</a></li>
+                </span>
+                <span>
                 <li><a href="#">Minha conta</a></li>
                 <li><a id="sair" href="#">Sair</a></li>
+                </span>
             </ul>
           </div>
         </div>
@@ -33,7 +38,9 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
         <h3>Coloque um texto que motiva as pessoas a comprarem instrumentos musicais</h3>
         </div>
 
-    <div class="instrumento">
+<!-- Parte de produtos -->
+<div class="container-fluid produtos">
+    <div class="instrumento col-12 col-sm-12 col-md-6 col-lg-3">
         <h3>Nome do instrumento</h3>
         <p>preço</p>
         <img class="img_produto" src="https://madeinbrazil.fbitsstatic.net/img/p/violao-classico-yamaha-c45-yamaha-natural-na-85046/271531.jpg?w=800&h=800&v=no-change&qs=ignore" alt="imagem instrumento">
@@ -48,7 +55,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
         </div>
     </div>
 
-    <div class="instrumento">
+    <div class="instrumento col-12 col-sm-12 col-md-6 col-lg-3">
         <h3>Nome do instrumento</h3>
         <p>preço</p>
         <img class="img_produto" src="https://madeinbrazil.fbitsstatic.net/img/p/violao-classico-yamaha-c45-yamaha-natural-na-85046/271531.jpg?w=800&h=800&v=no-change&qs=ignore" alt="imagem instrumento">
@@ -62,7 +69,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
         </div>
     </div>
 
-    <div class="instrumento">
+    <div class="instrumento col-12 col-sm-12 col-md-6 col-lg-3">
         <h3>Nome do instrumento</h3>
         <p>preço</p>
         <img class="img_produto" src="https://madeinbrazil.fbitsstatic.net/img/p/violao-classico-yamaha-c45-yamaha-natural-na-85046/271531.jpg?w=800&h=800&v=no-change&qs=ignore" alt="imagem instrumento">
@@ -76,7 +83,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
         </div>
     </div>
 
-    <div class="instrumento">
+    <div class="instrumento col-12 col-sm-12 col-md-6 col-lg-3">
         <h3>Nome do instrumento</h3>
         <p>preço</p>
         <img class="img_produto" src="https://madeinbrazil.fbitsstatic.net/img/p/violao-classico-yamaha-c45-yamaha-natural-na-85046/271531.jpg?w=800&h=800&v=no-change&qs=ignore" alt="imagem instrumento">
@@ -89,8 +96,10 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
         </button>
         </div>
     </div>
+</div>
+</div>
 
-    <footer class="container">
+    <footer>
         <ul>
             <li><a href="#">Sobre nós</a></li>
             <li><a href="#">Institucional</a></li>
